@@ -29,7 +29,7 @@ public class Sets {
 		System.out.println(animals.size()+" "+animals);
 		
 		//new set
-		HashSet<String> farmanimals = new HashSet<>();
+		HashSet<String> farmanimals = new HashSet<String>();
 		
 		farmanimals.add("cow");
 		farmanimals.add("chicken");
@@ -39,7 +39,7 @@ public class Sets {
 
 		//interseption de som finns i båda seten
 		
-		Set<String> interseption = new HashSet<>(animals);
+		Set<String> interseption = new HashSet<String>(animals);
 		System.out.println("interseption: " + interseption);
 		// ladda båda seten
 		interseption.retainAll(farmanimals);
@@ -56,8 +56,7 @@ public class Sets {
 		
 		// element som anorlunda
 		Set<String> diffrent = new HashSet<String>(farmanimals);
-		diffrent.remove(animals);
-		System.out.println("olikheten är" + diffrent);
+		diffrent.remove(farmanimals);
 	}
 
 }
