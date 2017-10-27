@@ -23,9 +23,9 @@ public class Arrays {
 		}
 
 		String[][] users ={
-				{"magnus","Leray","Magnus@leraye.se","12341234123"},
-				{"Jenny","Leray2","Jenny@leray.se","12341234123"},
-				{"Emilia","LEray3","emilia@leray.se","12342134334"}
+				{"magnus","kalle","Magnus@kuul.se","12341234123"},
+				{"Jenny","kalle3","Jenny@kuul.se","12341234123"},
+				{"Emilia","kall4","emilia@kuul.se","12342134334"}
 		};
 
 		//get the size of array
