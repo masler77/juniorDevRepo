@@ -1,14 +1,20 @@
 package se.javadeveloper.juniorDev;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
-public class Sets {
+public class LinkedHashSets {
 
 	public static void main(String[] args) {
+		
+		//LinkedHash kommer att i ordning efer att det blivit tillagda
+		// HasSet är helt osorterat
+		//TreeHashSet är alfabetisk ordning
 		// define collection
 		
-		Set<String> animals = new HashSet<String>();
+		Set<String> animals = new TreeSet<String>();
 		
 		// 2. add animals.
 		

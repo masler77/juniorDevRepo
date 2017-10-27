@@ -12,3 +12,7 @@ foreach att tänka på
 		for(String s:list) { 
 			System.out.println(s);  
 		}
+		
+		hashSet randomOrder
+		LinkedMap added order 
+		TreeMap alfabetic order.
