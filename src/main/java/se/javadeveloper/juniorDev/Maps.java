@@ -42,7 +42,7 @@ public class Maps {
 		
 		for( int key : maptest.keySet()){
 //			System.out.println("values" + key);
-			System.out.println("....................................................");
+			System.out.println(key+"....................................................");
 			System.out.println("[KEY : "+key +". Value "+ maptest.get(key)+" ]");
 		}
 		
