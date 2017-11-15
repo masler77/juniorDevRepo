@@ -1,4 +1,4 @@
-package algorythems;
+package se.javadeveloper.juniorDev.algorythems;
 
 public class search {
 
